@@ -31,6 +31,7 @@ return interestcaptions;
 
 
   public void drawInterest(){
+    playSound("keshi.wav");
     setTextStyle(Font.SERIF, FontStyle.BOLD);
     clear("olive");
     drawImage(images[2][0], 50, 10, 300);
